@@ -1,7 +1,7 @@
 {
-  "name": "terser-error-test",
+  "name": "terser-comment-retainment-tests",
   "version": "1.0.0",
-  "description": "",
+  "description": "lightweight project to test some behaviors around generating code with comments retained.",
   "main": "index.js",
   "dependencies": {
     "mocha": "^5.2.0",
@@ -9,8 +9,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "./node_modules/.bin/mocha ./test.js"
+    "test": "mocha ./test.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Michael Benjamin (mike@coolfront.com)",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike-coolfront/terser-comment-retainment-tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mike-coolfront/terser-comment-retainment-tests/issues"
+  },
+  "homepage": "https://github.com/mike-coolfront/terser-comment-retainment-tests#readme"
 }
