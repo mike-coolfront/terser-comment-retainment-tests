@@ -122,9 +122,7 @@ describe("when keeping comments", function(){
 
   })
 
-
-
-  it.only("should created useable code when not compressing", function(){
+  it("should created useable code when not compressing", function(){
     let sample1 = fs.readFileSync(__dirname+path.sep+"sample1.js").toString()
 
     let result = terser.minify( sample1,{
